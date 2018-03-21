@@ -1,0 +1,29 @@
+{
+  "name": "ytlofi",
+  "version": "1.0.0",
+  "description": "A command line that plays the most requested YT song. # Install ```bash npm install  ```",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fazendaaa/ytlofi.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Fazendaaa/ytlofi/issues"
+  },
+  "homepage": "https://github.com/Fazendaaa/ytlofi#readme",
+  "devDependencies": {
+    "commander": "^2.15.1",
+    "lame": "^1.2.4",
+    "speaker": "^0.4.0",
+    "youtube-audio-stream": "^0.2.0"
+  },
+  "preferGlobal": true,
+  "bin": {
+    "ytlofi": "ytlofi.js"
+  }
+}

@@ -5,16 +5,16 @@ A Command Line Interface(CLI) that plays the most awesome YT song... [Chill Stud
 ## About
 This is a history of one guy who sleep deprived tried to making some awesome game changer application that will revolutionize how the music indutry works!..
 
-obs: just joking around with you, guys. I wanted to create a CLI app and also a npm package, this came as one idea in _"what do do it."_
+obs: just joking around with you. I wanted to create a CLI app that is also a npm package, this came as one idea in _"what to do it."_
 ## Prerequisites
 Since I've made all of it in a Linux enviroment I just know how to do it in it. Mac and Windows users must seek help for each particularity of attempting to do on those enviroments.
 
-Install [npm](https://www.npmjs.com/) and [Node.js](https://nodejs.org/en/) into your machine, since Linux has many package manager, each one with it's particularity settup you must seek how to do you it.
+Install [npm](https://www.npmjs.com/) and [Node.js](https://nodejs.org/en/) into your machine, since Linux has many package managers, each one with it's particularity settup you must seek how to do it.
 
 ### Disclaimer
-Try to install Node through [nvm](https://github.com/creationix/nvm), I had myself a problem when installing **ytlofi** through npm with my previous settup.
+Try to install Node through [nvm](https://github.com/creationix/nvm), I had myself a problem when installing **ytlofi** through ```npm install -g ytlofi``` with my previous settup were Node was installed through ```pacman/yaourt``` -- I don't remeber quit as well wich one was it.
 
-That is a know "issue" because in some packages, the ones that compile some codes in C/C++ or other languages, doesn't work quite as well in ```sudo``` mode.
+That is a know "issue" because in some packages, the ones that compile code in C/C++ or other languages, doesn't work quite as well in ```sudo``` mode.
 ## Installing
 Most of Linux:
 ```bash
@@ -41,10 +41,11 @@ Only Github by now.
 # Build with
 * [youtube-audio-stream](https://github.com/JamesKyburz/youtube-audio-stream) - Awesome library that does all of the heavy work.
 # Contributing
-Still working to make one available.
+Still working in how to make one available.
 # Versoning
 Curently using Node version - by the way, I've never used this thing before.
 # TODO
+* Rewrite the code in TypeScript;
 * I think that all the paper work;
 * Write the tests for it;
 * Continuos Integration;

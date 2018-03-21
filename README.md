@@ -1,7 +1,7 @@
 # ytlofi
 A Command Line Interface(CLI) that plays the most awesome YT song... [Chill Study Beats - lofi hip hop mix [2018]](https://youtu.be/-FlxM_0S2lA)
 
-[![Chill Study Beats - lofi hip hop mix [2018]](http://img.youtube.com/vi/-FlxM_0S2lA/0.jpg)](https://youtu.be/-FlxM_0S2lA)
+[![Chill Study Beats - lofi hip hop mix [2018]](https://img.youtube.com/vi/-FlxM_0S2lA/0.jpg)](https://youtu.be/-FlxM_0S2lA)
 ## About
 This is a history of one guy who sleep deprived tried to making some awesome game changer application that will revolutionize how the music indutry works!..
 

@@ -1,6 +1,6 @@
 {
     "name": "ytlofi",
-    "version": "1.0.5",
+    "version": "1.1.0",
     "description": "A command line that plays the most requested YT song.",
     "main": "dist/ytlofi.js",
     "scripts": {

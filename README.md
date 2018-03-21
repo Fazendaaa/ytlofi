@@ -1,4 +1,10 @@
 # ytlofi
+[![GitHub issues](https://img.shields.io/github/issues/Fazendaaa/ytlofi.svg?style=flat-square)](https://github.com/Fazendaaa/ytlofi/issues)
+[![GitHub license](https://img.shields.io/github/license/Fazendaaa/ytlofi.svg?style=flat-square)](https://github.com/Fazendaaa/ytlofi/blob/master/LICENSE)
+[![GitHub stars](https://img.shields.io/github/stars/Fazendaaa/ytlofi.svg?style=flat-square)](https://github.com/Fazendaaa/ytlofi/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/Fazendaaa/ytlofi.svg?style=flat-square)](https://github.com/Fazendaaa/ytlofi/network)
+[![Twitter](https://img.shields.io/twitter/url/https/github.com/Fazendaaa/ytlofi.svg?style=flat-square)](https://twitter.com/intent/tweet?text=Wow:&url=https%3A%2F%2Fgithub.com%2FFazendaaa%2Fytlofi)
+
 A Command Line Interface(CLI) that plays the most awesome YT song... [Chill Study Beats - lofi hip hop mix [2018]](https://youtu.be/-FlxM_0S2lA)
 
 [![Chill Study Beats - lofi hip hop mix [2018]](https://img.youtube.com/vi/-FlxM_0S2lA/0.jpg)](https://youtu.be/-FlxM_0S2lA)
@@ -35,7 +41,7 @@ All the future tests are going to be implemented using [Jest](https://facebook.g
 ## Breaking down
 _"Wait for it..."_.
 ## Coding styles
-Since I inted to making this a TypeScript project in the future, there will be a [TSLint](https://palantir.github.io/tslint/) explanation here.
+Since I inted to making this a TypeScript(TS) project in the future, there will be a [TSLint](https://palantir.github.io/tslint/) explanation here.
 # Deployment
 Only Github by now.
 # Build with
@@ -45,11 +51,12 @@ Still working in how to make one available.
 # Versoning
 Curently using Node version - by the way, I've never used this thing before.
 # TODO
-* Rewrite the code in TypeScript;
-* I think that all the paper work;
+* Fix all unofficial typings errors;
 * Write the tests for it;
 * Continuos Integration;
-* Making it a ```yarn``` install guide.
+* Making it a ```yarn``` install guide;
+* Adding watching video through terminal option;
+* Releasing a fixed integration with the real Live stream when possible.
 # Authors
 * Only [me](https://github.com/Fazendaaa) for now.
 # Acknowledgments

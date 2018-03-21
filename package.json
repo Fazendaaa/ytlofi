@@ -1,6 +1,6 @@
 {
   "name": "ytlofi",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A command line that plays the most requested YT song. # Install ```bash npm install  ```",
   "main": "main.js",
   "scripts": {

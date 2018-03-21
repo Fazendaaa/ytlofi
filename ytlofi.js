@@ -6,11 +6,13 @@ const stream = require('youtube-audio-stream');
 const decoder = require('lame').Decoder;
 const speaker = require('speaker');
 const fs = require('fs');
+const path = require('path');
 
 const url = 'http://youtube.com/watch?v=-FlxM_0S2lA';
+const banner = path.join(__dirname, 'banner.txt');
 
 const run = () => {
-    fs.readFile('./banner.txt', 'utf8', (err, data) => {
+    fs.readFile(banner, 'utf8', (err, data) => {
         if (err) {
             console.error(err);
         } else {

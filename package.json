@@ -4,7 +4,8 @@
   "description": "A command line that plays the most requested YT song.",
   "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "ytlofi": "node ytlofi.js"
   },
   "repository": {
     "type": "git",

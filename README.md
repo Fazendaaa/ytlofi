@@ -1,5 +1,7 @@
 # ytlofi
 A Command Line Interface(CLI) that plays the most awesome YT song... [Chill Study Beats - lofi hip hop mix [2018]](https://youtu.be/-FlxM_0S2lA)
+
+[![Chill Study Beats - lofi hip hop mix [2018]](http://img.youtube.com/vi/-FlxM_0S2lA/0.jpg)](https://youtu.be/-FlxM_0S2lA)
 ## About
 This is a history of one guy who sleep deprived tried to making some awesome game changer application that will revolutionize how the music indutry works!..
 
@@ -8,6 +10,11 @@ obs: just joking around with you, guys. I wanted to create a CLI app and also a 
 Since I've made all of it in a Linux enviroment I just know how to do it in it. Mac and Windows users must seek help for each particularity of attempting to do on those enviroments.
 
 Install [npm](https://www.npmjs.com/) and [Node.js](https://nodejs.org/en/) into your machine, since Linux has many package manager, each one with it's particularity settup you must seek how to do you it.
+
+### Disclaimer
+Try to install Node through [nvm](https://github.com/creationix/nvm), I had myself a problem when installing **ytlofi** through npm with my previous settup.
+
+That is a know "issue" because in some packages, the ones that compile some codes in C/C++ or other languages, doesn't work quite as well in ```sudo``` mode.
 ## Installing
 Most of Linux:
 ```bash
@@ -22,6 +29,7 @@ Simple as:
 ```bash
 ytlofi
 ```
+If you ran through some issues when running **ytlofi** after installing it, try to read [Disclaimer](https://github.com/Fazendaaa/ytlofi#disclaimer) section.
 # Running tests
 All the future tests are going to be implemented using [Jest](https://facebook.github.io/jest/).
 ## Breaking down
@@ -39,7 +47,8 @@ Curently using Node version - by the way, I've never used this thing before.
 # TODO
 * I think that all the paper work;
 * Write the tests for it;
-* Continuos Integration.
+* Continuos Integration;
+* Making it a ```yarn``` install guide.
 # Authors
 * Only [me](https://github.com/Fazendaaa) for now.
 # Acknowledgments

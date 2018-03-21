@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/Fazendaaa/ytlofi#readme",
   "dependencies": {
+    "bindings": "^1.3.0",
     "commander": "^2.15.1",
     "lame": "^1.2.4",
     "speaker": "^0.4.0",

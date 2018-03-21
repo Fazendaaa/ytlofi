@@ -17,6 +17,11 @@ Mac and some Linux:
 ```bash
 sudo npm install -g ytlofi
 ```
+# Running
+Simple as:
+```bash
+ytlofi
+```
 # Running tests
 All the future tests are going to be implemented using [Jest](https://facebook.github.io/jest/).
 ## Breaking down

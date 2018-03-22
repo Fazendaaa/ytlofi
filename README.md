@@ -1,10 +1,11 @@
 # ytlofi
+[![Build Status](https://travis-ci.org/Fazendaaa/ytlofi.svg?branch=master)](https://travis-ci.org/Fazendaaa/ytlofi)
+[![Coverage Status](https://coveralls.io/repos/github/Fazendaaa/ytlofi/badge.svg?branch=master)](https://coveralls.io/github/Fazendaaa/ytlofi?branch=master)
 [![GitHub issues](https://img.shields.io/github/issues/Fazendaaa/ytlofi.svg?style=flat-square)](https://github.com/Fazendaaa/ytlofi/issues)
 [![GitHub license](https://img.shields.io/github/license/Fazendaaa/ytlofi.svg?style=flat-square)](https://github.com/Fazendaaa/ytlofi/blob/master/LICENSE)
 [![GitHub stars](https://img.shields.io/github/stars/Fazendaaa/ytlofi.svg?style=flat-square)](https://github.com/Fazendaaa/ytlofi/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/Fazendaaa/ytlofi.svg?style=flat-square)](https://github.com/Fazendaaa/ytlofi/network)
 [![Twitter](https://img.shields.io/twitter/url/https/github.com/Fazendaaa/ytlofi.svg?style=flat-square)](https://twitter.com/intent/tweet?text=Wow:&url=https%3A%2F%2Fgithub.com%2FFazendaaa%2Fytlofi)
-<script type='text/javascript' src='https://ko-fi.com/widgets/widget_2.js'></script><script type='text/javascript'>kofiwidget2.init('Buy Me a Coffee', '#46b798', 'N4N0AZYY');kofiwidget2.draw();</script> 
 
 A Command Line Interface(CLI) that plays the most awesome YT song... [Chill Study Beats - lofi hip hop mix [2018]](https://youtu.be/-FlxM_0S2lA)
 
@@ -40,24 +41,61 @@ ytlofi
 ```
 If you ran through some issues when running **ytlofi** after installing it, try to read [Disclaimer](https://github.com/Fazendaaa/ytlofi#disclaimer) section.
 # Running tests
-All the future tests are going to be implemented using [Jest](https://facebook.github.io/jest/).
-## Breaking down
-_"Wait for it..."_.
+Using [Jest](https://facebook.github.io/jest/) to run all of the testing. This project is some kind of "unique". [Circle CI](http://circleci.com/) wasn't building the test and giving me no useful output about what was going down, then I've changend to [Travis CI](http://travis-ci.org/) then the things started to get intresting. Easy to read docs and a active community I've found out that the missing part to run CI was to integrate the following pice of code in [```.travis.yml```](https://github.com/Fazendaaa/ytlofi/blob/master/.travis.yml):
+```yml
+before_install:
+  - sudo apt-get -qq update
+  - sudo apt-get install libasound2-dev
+```
+That ensures the dependecy need it to install the [Spekear](https://www.npmjs.com/package/speaker) package and not breaking it during ```npm install```.
+## Breaking it down
+To run yourself the tests you need to download this repository, open a terminal in a project folder then:
+```bash
+git clone https://github.com/Fazendaaa/ytlofi
+```
+The ```git``` command should result in this:
+```bash
+Cloning into 'ytlofi'...
+remote: Counting objects: 124, done.
+remote: Compressing objects: 100% (89/89), done.
+remote: Total 124 (delta 52), reused 95 (delta 29), pack-reused 0
+Receiving objects: 100% (124/124), 91.21 KiB | 555.00 KiB/s, done.
+Resolving deltas: 100% (52/52), done.
+```
+Then navigate to the **ytlofi** folder and run the tests:
+```bash
+npm test
+```
+Something like this should be expected:
+```bash
+ PASS  test/utils.test.ts (8.964s)
+  Testing the only function that this program has.
+    ✓ Reading banner. (2ms)
+
+----------|----------|----------|----------|----------|-------------------|
+File      |  % Stmts | % Branch |  % Funcs |  % Lines | Uncovered Line #s |
+----------|----------|----------|----------|----------|-------------------|
+All files |     62.5 |        0 |       50 |     62.5 |                   |
+ utils.ts |     62.5 |        0 |       50 |     62.5 |          10,11,13 |
+----------|----------|----------|----------|----------|-------------------|
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        13.447s
+Ran all test suites.
+```
 ## Coding styles
-Since I inted to making this a TypeScript(TS) project in the future, there will be a [TSLint](https://palantir.github.io/tslint/) explanation here.
+This project is made using [TypeScript]()(TS) and [TSLint](https://palantir.github.io/tslint/), since there're a lot of TS availabe from the one used inside of [Google](https://github.com/google/ts-style) to the one used in [Airbnb](https://www.npmjs.com/package/tslint-config-airbnb), I myself use one that I've and still thourgh some progress tweaking things a lit bit, you can check it ou in the [```tslint.json```](https://github.com/Fazendaaa/ytlofi/blob/master/tslint.json) file.
 # Deployment
-Only Github by now.
+Github + Travis CI.
 # Build with
 * [youtube-audio-stream](https://github.com/JamesKyburz/youtube-audio-stream) - Awesome library that does all of the heavy work.
 # Contributing
-Still working in how to make one available.
+Still working to make one available.
 # Versoning
 Curently using Node version - by the way, I've never used this thing before.
 # TODO
 * Fix all unofficial typings errors;
-* Write the tests for it;
-* Continuos Integration;
-* Making it a ```yarn``` install guide;
 * Adding watching video through terminal option;
 * Releasing a fixed integration with the real Live stream when possible.
 # Authors

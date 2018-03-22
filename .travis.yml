@@ -7,3 +7,4 @@ cache:
 before_install:
   - sudo apt-get -qq update
   - sudo apt-get install libasound2-dev
+after_script: "cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js"

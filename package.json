@@ -35,5 +35,15 @@
     },
     "bin": {
         "ytlofi": "dist/ytlofi.js"
-    }
+    },
+    "keywords": [
+        "youtube",
+        "cli",
+        "music",
+        "lofi",
+        "hip-hop",
+        "radio",
+        "2018",
+        "spotify"
+    ]
 }

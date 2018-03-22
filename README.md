@@ -1,4 +1,5 @@
 # ytlofi
+[![npm version](https://badge.fury.io/js/ytlofi.svg)](https://badge.fury.io/js/ytlofi)
 [![Build Status](https://travis-ci.org/Fazendaaa/ytlofi.svg?branch=master)](https://travis-ci.org/Fazendaaa/ytlofi)
 [![Coverage Status](https://coveralls.io/repos/github/Fazendaaa/ytlofi/badge.svg?branch=master)](https://coveralls.io/github/Fazendaaa/ytlofi?branch=master)
 [![GitHub issues](https://img.shields.io/github/issues/Fazendaaa/ytlofi.svg?style=flat-square)](https://github.com/Fazendaaa/ytlofi/issues)
@@ -105,3 +106,4 @@ Curently using Node version - by the way, I've never used this thing before.
 * Also [this](https://medium.freecodecamp.org/writing-command-line-applications-in-nodejs-2cf8327eee2) freeCodeCamp blog at Medium helped me out when publishing this awesome project;
 * And thanks to [this](https://javascriptplayground.com/node-command-line-tool/) blog helping out how to publish this project;
 * Savior [tutorial](https://github.com/dwyl/learn-travis) in how to use Travis CI.
+* This [tutorial](https://strongloop.com/strongblog/npm-modules-travis-coveralls/) help me out in setting [Coverall](http://coveralls.io/) badge, showed me that a simple entry in ```.travis.yml``` does the job.

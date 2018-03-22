@@ -12,6 +12,8 @@ A Command Line Interface(CLI) that plays the most awesome YT song... [Chill Stud
 This is a history of one guy who sleep deprived tried to making some awesome game changer application that will revolutionize how the music indutry works!..
 
 obs: just joking around with you. I wanted to create a CLI app that is also a npm package, this came as one idea in _"what to do it."_
+
+[![](https://media.giphy.com/media/npCGl3hwSTOESwaveL/giphy.gif)](https://www.npmjs.com/package/ytlofi)
 ## Prerequisites
 Since I've made all of it in a Linux enviroment I just know how to do it in it. Mac and Windows users must seek help for each particularity of attempting to do on those enviroments.
 

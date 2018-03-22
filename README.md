@@ -4,6 +4,7 @@
 [![GitHub stars](https://img.shields.io/github/stars/Fazendaaa/ytlofi.svg?style=flat-square)](https://github.com/Fazendaaa/ytlofi/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/Fazendaaa/ytlofi.svg?style=flat-square)](https://github.com/Fazendaaa/ytlofi/network)
 [![Twitter](https://img.shields.io/twitter/url/https/github.com/Fazendaaa/ytlofi.svg?style=flat-square)](https://twitter.com/intent/tweet?text=Wow:&url=https%3A%2F%2Fgithub.com%2FFazendaaa%2Fytlofi)
+<script type='text/javascript' src='https://ko-fi.com/widgets/widget_2.js'></script><script type='text/javascript'>kofiwidget2.init('Buy Me a Coffee', '#46b798', 'N4N0AZYY');kofiwidget2.draw();</script> 
 
 A Command Line Interface(CLI) that plays the most awesome YT song... [Chill Study Beats - lofi hip hop mix [2018]](https://youtu.be/-FlxM_0S2lA)
 
@@ -64,4 +65,5 @@ Curently using Node version - by the way, I've never used this thing before.
 # Acknowledgments
 * Thanks to [PurpleBooth](https://gist.github.com/PurpleBooth) and this great [Readme](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2) template and hers [Contributing](https://gist.github.com/PurpleBooth/b24679402957c63ec426) template also;
 * Also [this](https://medium.freecodecamp.org/writing-command-line-applications-in-nodejs-2cf8327eee2) freeCodeCamp blog at Medium helped me out when publishing this awesome project;
-* And thanks to [this](https://javascriptplayground.com/node-command-line-tool/) blog helping out how to publish this project.
+* And thanks to [this](https://javascriptplayground.com/node-command-line-tool/) blog helping out how to publish this project;
+* Savior [tutorial](https://github.com/dwyl/learn-travis) in how to use Travis CI.

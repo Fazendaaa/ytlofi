@@ -4,6 +4,6 @@ node_js:
 cache:
   directories:
     - "node_modules"
-# Configure to not use ALSA to avoid ALSA dependency errors
-env:
-- SDL_AUDIODRIVER=dummy
+before_install:
+  - sudo apt-get -qq update
+  - sudo apt-get install libasound2-dev

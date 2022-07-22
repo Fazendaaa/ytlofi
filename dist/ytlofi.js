@@ -10,7 +10,7 @@ const streamify = require('youtube-audio-stream');
 const version = path_1.join(__dirname, '../package.json');
 function run() {
     utils_1.readBanner.then((data) => {
-        const url = 'https://youtube.com/watch?v=-FlxM_0S2lA';
+        const url = 'https://youtube.com/watch?v=jfKfPfyJRdk';
         streamify(url).pipe(lame_1.Decoder()).pipe(new Speaker());
         console.log(data);
         console.log('\n\t\t\t\t\t' + url + '\n\n\t\t\t\t      Just press Ctrl + C to kill this process...');

@@ -17,7 +17,7 @@ const version: string = join(__dirname, '../package.json');
 
 function run(this: void): void {
     readBanner.then((data: string) => {
-        const url: string = 'https://youtube.com/watch?v=-FlxM_0S2lA';
+        const url: string = 'https://youtube.com/watch?v=jfKfPfyJRdk';
 
         streamify(url).pipe(Decoder()).pipe(new Speaker());
         console.log(data);
